@@ -1,0 +1,123 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    color: white;
+    height: 80px;
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    
+}
+h4{
+    font-size: large;
+}
+
+.navbar div{
+    margin: 0px 40px 0px 40px;
+}
+
+.fenetres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.liens li{
+    margin: 0px 40px 0px 40px;
+    font-size: 17px;
+    list-style: none;
+
+}
+
+.btn_contact{
+    height: 40%;
+    width: 120px;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+     }
+li a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container div{
+    height: 500px;
+    width: 40%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.text{
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.text div{
+    height: 500px;
+    width: 40%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.trad{
+    display: flex;
+    justify-content: center;
+
+}
+.trad button{
+    background-color:aqua;
+    border-radius: 30px;
+    color: white;
+    height: 40%;
+    width: 120px;
+    padding: 20px;
+    }
+a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.trad a{
+    font-size: large;
+}
+img{
+    width: 100%
+}
+.pres1{
+    display: flex;
+    justify-content: space-around;
+}
+.pres1 p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+.navbar{
+    padding: 10px;
+    font-size: 1.5em;
+}
+ }
